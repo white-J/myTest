@@ -1,0 +1,58 @@
+/*Sass*/
+
+$mainColor: #f00;
+$borderDirection: top !default;
+$boxheight: 200;
+$boxwidth: 100;
+$auto: auto;
+$hoverColor: #000 #f00;
+
+.main{
+  color: $mainColor;
+}
+.border-#{$borderDirection}{
+   border-#{$borderDirection}:1px solid #ccc;
+}
+
+.box{
+  height: $boxheight/$boxwidth+100px;
+  width: $boxwidth+px;
+  background: #ff0;
+  margin: 0 $auto;
+}
+
+a{
+  color: nth($hoverColor,1);
+  display: block;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border:{
+    style: dotted;
+    left:{
+      color: #ffff00;
+      width: 5px;
+    }
+    bottom: {
+      color: #64bfff;
+      width: 2px;
+    }
+    top:{
+      style: none;
+    }
+    right:{
+      style: none;
+    }
+  }
+  &:hover{
+    background: #ccc;
+  }
+}
+
+
+
+
+
+
+

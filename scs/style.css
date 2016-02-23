@@ -1,0 +1,11 @@
+/*Sass*/
+.main { color: #f00; }
+
+.border-top { border-top: 1px solid #ccc; }
+
+.box { height: 102px; width: 100px; background: #ff0; margin: 0 auto; }
+
+a { color: #000; display: block; width: 100px; height: 50px; text-align: center; text-decoration: none; border-style: dotted; border-left-color: #ffff00; border-left-width: 5px; border-bottom-color: #64bfff; border-bottom-width: 2px; border-top-style: none; border-right-style: none; }
+a:hover { background: #ccc; }
+
+/*# sourceMappingURL=style.css.map */
