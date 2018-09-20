@@ -1,4 +1,0 @@
-# myTest
-test
-aaa
-bbb
